@@ -4,6 +4,8 @@
     <meta charset="UTF-8"> <!-- Traz os caracteres especiais da linguagem portuguesa -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Tamanho da escala incial do site -->
     <title>Juliana</title> <!-- Título da nossa página -->
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <p>Aprendendo HTML</p>
@@ -20,8 +22,10 @@
     <hr>
 
     <!-- IMAGENS -->
-    <img src="eu.png" alt="Me" width="200px">
-    <img src="https://github.com/JulianaSFreitas21.png" alt="Me" width="200px">
+    <!-- <img src="eu.png" alt="Me" width="200px">-->
+    <div>
+        <img src="eu.png" alt="Me" width="200px">
+    </div>
 
     <hr>
     
@@ -63,5 +67,36 @@
             <td>12.345.678.9</td>
         </tr>
     </table>
+
+    <hr>
+
+    <!-- FORMULÁRIO -->
+    <form action="" method="">  
+        <label>Nome:</label>  
+        <input type="text" name="nome" placeholder="Digite seu nome">
+        <label>Gênero:</label>
+        <select name="genero"> 
+            <option value="M">Masculino</option>
+            <option value="F">Feminino</option>
+        </select>
+        <input type="submit" value="Enviar">
+    </form>
+    <form action="" method="">  
+        <label for="">Aceito os termos</label>
+        <input type="checkbox">
+        <label for="">Feminino</label>
+        <input type="radio">
+        <label for="">Masculino</label>
+        <input type="radio" >
+        <input type="date">
+        <input type="email">
+        <input type="file">
+        <input type="image">
+        <input type="number">
+        <input type="password">
+        <input type="tel">
+        <input type="button">
+        <input type="color">
+    </form>
 </body>
 </html>
