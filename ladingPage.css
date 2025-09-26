@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    margin: 0 auto;
+}
+
+main{
+    width: 90%;
+    margin: 50px auto 0 ;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+#photo{
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, .5);
+    width: 160px;
+    height: 160px;
+
+    border-radius: 50%;
+    
+    margin-bottom: 20px;
+}
+
+.roboto{
+  font-family: "Roboto", sans-serif;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+
+    gap: 20px;
+}
+
+.box p,.box h1 {
+    text-align: center;
+}
+
+
+.box img{
+    width: 160px;
+    height: 160px;
+
+    border-radius: 50%;
+}
+
+.icons{
+    font-size: 24px;
+}
+
+.fa-instagram{
+    background: -webkit-linear-gradient(bottom left, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-linkedin{
+    color: #0077B5;
+}
+
+.fa-github{
+    color: #111111;
+}
