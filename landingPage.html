@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +9,17 @@
 
     <link rel="shortcut icon" href="logotipo.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="import" href="https://commons.wikimedia.org/wiki/File:Font_Awesome_5_solid_globe.svg.html">
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+
+    <script defer="true" src="script.js"></script>
 </head>
 <body>
     <main>
+        <button id="toggle-theme">
+            <span id="moon" class="material-symbols-outlined visible">bedtime</span>
+            <span id="sun" class="material-symbols-outlined hidden">wb_sunny</span>
+        </button>
         <div id="photo" class="box">
             <img src="myself.png" alt="myself">
         </div>
